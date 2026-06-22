@@ -30,6 +30,10 @@ Conclusions/
 2. ML and Deep Learning Models: Decision Trees, Random Forests, LightGBM and XGBoost
 3. Pearson Correlation Model and Regression Models
 
-## Conclusions
+## Our Agent will:
+- Analyze insurance claims in depth
+- Detect anomalies and suspicious patterns
+- Investigate why a claim could be fraudulent
+- recommend automated actions (approve, flag, escalate)
 
 

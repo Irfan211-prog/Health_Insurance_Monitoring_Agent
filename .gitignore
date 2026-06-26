@@ -1,0 +1,63 @@
+# =====================
+# Python backend
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+instance/
+
+# logs
+*.log
+
+# =====================
+# ML models (VERY IMPORTANT)
+# =====================
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# optional trained artifacts
+*.pkl
+*.joblib
+
+# =====================
+# Data (avoid leaking real data)
+# =====================
+data/
+*.csv
+*.xlsx
+
+# =====================
+# React frontend (insight-guardian)
+# =====================
+insight-guardian/node_modules/
+insight-guardian/dist/
+insight-guardian/build/
+insight-guardian/.vite/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# Misc
+# =====================
+coverage/

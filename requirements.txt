@@ -1,0 +1,35 @@
+# =====================
+# Core Backend
+# =====================
+Flask==3.0.3
+flask-cors==4.0.1
+gunicorn==22.0.0
+
+# =====================
+# Data & ML
+# =====================
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# =====================
+# AI / LLM (optional but useful for agents)
+# =====================
+requests==2.32.3
+
+# If using Ollama locally (Mistral, Llama etc.)
+ollama
+
+# If using OpenAI / other APIs
+openai
+
+# =====================
+# PDF Report Generation
+# =====================
+reportlab==4.2.2
+
+# =====================
+# Environment Variables
+# =====================
+python-dotenv==1.0.1
